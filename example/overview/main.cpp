@@ -20,7 +20,7 @@ void general_features()
         return; //new failed on static initializator
     }
     auto mal_cfg             = fe.get_cfg();
-    mal_cfg.file.name_prefix = "test-data.";
+    mal_cfg.file.name_prefix = "test_data.";
     mal_cfg.file.name_suffix = ".log.txt";
 #ifndef MAL_WINDOWS
     //this folder has to exist before running
